@@ -1,0 +1,32 @@
+.banner{
+	width: 700px;
+	height: 300px;
+	border: 3px solid red;
+	margin: auto;
+
+	background-size: 100% 100%;
+
+	animation: banner 10s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes banner{
+	0%, 30% {
+		background-image: url(img2.jpg);
+		opacity: 1;
+	}
+	31%, 34% {
+		opacity: 0.1;
+	}
+	35%, 65% {
+		background-image: url(fondo1.jpg);
+		opacity: 1;
+	}
+	66%, 69% {
+		opacity: 0.1;
+	}
+	70%, 100% {
+		opacity: 1;
+		background-image: url(img3.jpg);
+	}
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Compra</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body background="fondo9.jpg">
+
+	<section class="title">
+		<font face="Segoe Print"><h1><font color="black">Optica Buena-Vista</font></h1></font>
+	</section>
+
+	<nav class="navegacion">
+		<ul class="menu">
+
+			<li class="first-item">
+				<a href="Inicio.html">
+					<img src="img/home.jpg" alt="" class="imagen">
+					<span class="text-item">Inicio</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+
+			<li>
+				<a href="Servicios.html">
+					<img src="img/servicios.jpg" alt="" class="imagen">
+					<span class="text-item">Servicios</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+
+			<li>
+				<a href="Nosotros.html">
+					<img src="img/us.jpg" alt="" class="imagen">
+					<span class="text-item">Nosotros</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+
+			
+
+			<li>
+				<a href="Contactos.html">
+					<img src="img/contacto.jpg" alt="" class="imagen">
+					<span class="text-item">Contactos</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+
+			<li>
+				<a href="Productos.html">
+					<img src="img/blog.jpg" alt="" class="imagen">
+					<span class="text-item">Productos</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" href="main.css">
+	<div class="social-bar">
+		<a href="https://www.facebook.com/Optica-Buena-Vista-578907982529622/" class="icon icon-facebook2" target="_blank"></a>
+		<a href="https://www.instagram.com/optica_bv/?hl=es-la" class="icon icon-instagram" target="_blank"></a>
+		<a href="https://twitter.com/buena_optica" class="icon icon-twitter" target="_blank"></a>
+		<a href="https://www.youtube.com/channel/UCFBHPVf8A0hh0GnGH6m51Eg?view_as=subscriber" class="icon icon-youtube" target="_blank"></a>
+	</div>
+	
+<center>
+	<table>
+		<tr>
+			<td>
+				<link rel="stylesheet" href="estilocontactos.css">
+				<form action="enviarcompra.php" method="post" class="formulario">
+					<h1 class="formulario__titulo">Formulario de Compras</h1></br>
+					<h3>Modelo: </h3>
+					<select type="text" id="modelo" name="modelo">
+						<option>- - - - -</option>
+						<option> Lentes 1 - $3000 </option>
+						<option> Lentes 2 - $4500 </option>
+						<option> Lentes 3 - $2500 </option>
+						<option> Lentes 4 - $3000 </option>
+						<option> Lentes 5 - $3500 </option>
+						<option> Lentes 6 - $2000 </option>
+						<option> Lentes 7 - $4000 </option>
+						<option> Lentes 8 - $3000 </option>
+						<option> Lente de Contacto 1 - $2000 </option>
+						<option> Lente de Contacto 2 - $1500 </option>
+						<option> Lente de Contacto 3 - $3000 </option>
+						<option> Lente de Contacto 4 - $2500 </option>
+						<option> Accesorio 1 - $450 </option>
+						<option> Accesorio 2 - $500 </option>
+						<option> Accesorio 3 - $550 </option>
+						<option> Accesorio 4 - $250 </option>
+						<option> Lentes de Sol 1 - $4000 </option>
+						<option> Lentes de Sol 2 - $4550 </option>
+						<option> Lentes de Sol 3 - $3500 </option>
+						<option> Lentes de Sol 4 - $3000 </option>
+						<option> Lentes de Sol 5 - $5000 </option>
+						<option> Lentes de Sol 6 - $4000 </option>
+						<option> Lentes de Sol 7 - $3550 </option>
+						<option> Lentes de Sol 8 - $3800 </option>
+					</select></br></br></br>
+					<input type="text" id="nombre" name="nombre" class="formulario__input">
+					<label for="" class="formulario__label">Nombre</label>
+					<input type="text" id="apellido" name="apellido" class="formulario__input">
+					<label for="" class="formulario__label">Apellido</label>
+					<input type="text" id="direccion" name="direccion" class="formulario__input">
+					<label for="" class="formulario__label">Direccion</label>
+					<input type="text" id="cp" name="cp" class="formulario__input">
+					<label for="" class="formulario__label">Codigo Postal</label>
+					<input type="text" id="correo" name="correo" class="formulario__input">
+					<label for="" class="formulario__label">Correo Electronico</label>
+					<input type="text" id="referencia" name="referencia" class="formulario__input">
+					<label for="" class="formulario__label">Referencia</label>
+					<input type="submit" class="formulario__submit">
+				</form>
+				<script src="formacontactos.js"></script>
+			</td>
+		</tr>
+	</table>
+</center>
+</body>
+</html>
